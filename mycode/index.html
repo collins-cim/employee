@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h2> EMPLOYEE SYSTEM MANAGEMENT</h2>
+    <form name="register" method="post" action="register.php">\
+        <h1>Register</h1>
+        <label for="name">Name</label><br>
+        <input type="text" name="first name" placeholder="first name" class="box"><br> 
+        <input type="text" name="second name" placeholder="second name" class="box"><br>
+        <label for="email">Enter email</label><br>
+        <input type="email" name="email" placeholder="please enter your email" class="box"><br>
+        <label for="deparment">Enter deparment</label><br>
+        <input type="text" name="deparment" placeholder="enter the department" class="box"><br>
+        <button type="submit" name="submit" value="">submit</button>
+    </form>
+    <form name="login " method="post" action="login">
+        <h1>Login</h1>
+        <label for="username">Enter your Username</label><br><br>
+        <input type="text" placeholder="enter your username" class="box"><br><br>
+        <label for="password">Enter your pasword</label><br><br>
+        <input type="password" name="password" placeholder="Enter your password"><br><br>
+        <button type="submit" name="submit" value="">Submit</button>
+    </form>
+    <section id="finace" class="card">
+        <h1>Finace</h1>
+        <a href="login.html">Please log in to access this service?
+        </a>
+    </section>
+    <section id="Department" class="card">
+        <h1>Department</h1>
+        <label for="department">Enter your department</label>
+        <input type="text" name="deparment" placeholder="">
+    </section>
+    <section id="procurement" class="card">
+        <h1>Procurement</h1>
+        <a href="login">login to get your procurement</a>
+    </section>
+    <section id="leave" class="card">
+        <h1>Leave</h1>
+        <a href="login">login to get your leave</a>
+    </section>
+
+</body>
+</html>
